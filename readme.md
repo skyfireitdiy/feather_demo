@@ -10,7 +10,7 @@
 ./pre_run.sh
 ```
 
-## 初始化`mysql`
+### 初始化`mysql`
 
 * 在当前目录下建立目录`mysql_data`作为`mysql`容器的数据目录。
 
@@ -50,11 +50,11 @@ mysql -h172.17.0.2 -uroot -proot
 
 到此，`mysql`数据库初始化完成。
 
-## 配置项目
+### 配置项目
 
 修改`runtime/cfg/feather.cfg`文件，将其中的数据库相关信息修改为实际数据。(此处假设端口号为`8080`)
 
-## 运行`feather`示例
+### 运行`feather`示例
 
 ```shell
 ./start_feather.sh
@@ -62,7 +62,7 @@ mysql -h172.17.0.2 -uroot -proot
 
 使用`docker inspect feather_demo`查看`feather_demo`容器的`ip`地址（此处假设是`17.2.0.3`），在浏览器访问`http://172.17.0.3:8080/sign_out_page`注册并发表一篇文章。
 
-# 后续使用
+## 后续使用
 
 后续只需要运行
 
