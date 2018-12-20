@@ -29,6 +29,8 @@ systemctl start docker
 
 首次运行会下载`200`余`MB`的镜像。
 
+启动后访问[http://localhost:8080/sign_out_page](http://localhost:8080/sign_out_page)验证启动结果。
+
 ## 停止`feather`
 
 ```shell
