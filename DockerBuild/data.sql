@@ -19,9 +19,9 @@
 -- Table structure for table `article`
 --
 
-DROP DATABASE IF EXISTS feather;
-CREATE DATABASE feather;
-USE feather;
+-- DROP DATABASE IF EXISTS feather;
+-- CREATE DATABASE feather;
+-- USE feather;
 
 DROP TABLE IF EXISTS `article`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

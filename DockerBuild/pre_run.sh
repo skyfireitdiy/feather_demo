@@ -7,4 +7,6 @@ fi
 
 set -e
 docker build -t feather_demo .
-docker pull mysql
+docker tag feather_demo wmb521/feather_demo:v1
+docker rmi feather_demo
+docker pull mariadb

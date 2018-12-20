@@ -7,3 +7,6 @@ fi
 
 docker stop feather_demo
 docker rm feather_demo
+docker stop mysql_feather_demo
+docker rm mysql_feather_demo
+echo feather stopped!
